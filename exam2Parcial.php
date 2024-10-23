@@ -16,7 +16,7 @@ $Telefonos = array(
     "Nokia" => 5000,
 );
 
-echo "Lista inicial de Vehiculos:<br>";
+echo "Lista inicial de Telefonos:<br>";
 foreach ($Telefonos as $nombre => $precio) {
     echo "$nombre: $$precio<br>";
 }
