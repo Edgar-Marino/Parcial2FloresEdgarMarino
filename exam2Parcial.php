@@ -27,7 +27,7 @@ $Telefonos["Super Cel"] = 500;
 echo "<br>Lista después de agregar y ordenar:<br>";
 asort($Telefonos);
 
-foreach (Telefonos as $nombre => $precio) {
+foreach ($Telefonos as $nombre => $precio) {
     echo "$nombre: $$precio<br>";
 }
 
