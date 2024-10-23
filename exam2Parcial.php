@@ -21,13 +21,13 @@ foreach ($Telefonos as $nombre => $precio) {
     echo "$nombre: $$precio<br>";
 }
 
-$carros["Oxxo CEL"] = 300;
-$carros["Super Cel"] = 500;
+$Telefonos["Oxxo CEL"] = 300;
+$Telefonos["Super Cel"] = 500;
 
 echo "<br>Lista después de agregar y ordenar:<br>";
 asort($Telefonos);
 
-foreach ($carros as $nombre => $precio) {
+foreach (Telefonos as $nombre => $precio) {
     echo "$nombre: $$precio<br>";
 }
 
